@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PushMessages", "PushMessages\PushMessages.csproj", "{C572F6A0-B201-4503-A63B-30CCC3543DC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PushMessages.EntityFramework", "PushMessages.EntityFramework\PushMessages.EntityFramework.csproj", "{848C8BC6-5757-49E0-A93B-77E4BBAFD804}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C572F6A0-B201-4503-A63B-30CCC3543DC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C572F6A0-B201-4503-A63B-30CCC3543DC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C572F6A0-B201-4503-A63B-30CCC3543DC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C572F6A0-B201-4503-A63B-30CCC3543DC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{848C8BC6-5757-49E0-A93B-77E4BBAFD804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{848C8BC6-5757-49E0-A93B-77E4BBAFD804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{848C8BC6-5757-49E0-A93B-77E4BBAFD804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{848C8BC6-5757-49E0-A93B-77E4BBAFD804}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\TransientFaultHandling.Core.5.1.1209.1\lib\NET4
+	EndGlobalSection
+EndGlobal
